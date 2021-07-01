@@ -1,1 +1,0 @@
-/ question1 : to responsive bad az width 767 ..accomodation-main-box > p , avalin farzandesh do khati mishe va mirisze be ham man be shekele khate 854 ,860 ,861,875,888,889  amal kardam . aya rahe dg vojod dare ke be p begim hamashon do khati beshan ?
