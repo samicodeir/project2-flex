@@ -921,3 +921,288 @@ footer {
 .footer-link {
   color: var(--text-white);
 }
+/* responsive begin */
+
+/* for tablet & smartphone max-width 989px */
+
+@media (max-width: 989px) {
+  .container {
+    width: 100%;
+    padding: 0 25px;
+  }
+  #header {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #header .nav {
+    width: 100%;
+    position: unset;
+    height: 80px;
+  }
+
+  .nav > a {
+    width: 190px;
+  }
+
+  .nav > a .logo-red {
+    display: none;
+  }
+  #header .nav > a .logo-responsive {
+    width: 100%;
+    display: block;
+  }
+
+  #header .nav .ul {
+    display: none;
+  }
+  #header .menu-toggler {
+    display: flex;
+    color: var(--main-color-title);
+  }
+  #header .header-content-wrap {
+    width: 100%;
+  }
+  .header-content {
+    padding: 40px;
+  }
+  #header .header-content h1 {
+    font-size: 80px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  #header .header-content p {
+    font-size: 12px;
+  }
+
+  /* customers */
+
+  .customers-wrap h2 {
+    font-size: 50px;
+  }
+  .wedding-details-box h2 {
+    font-size: 35px;
+  }
+
+  /* accomodation  */
+  .accomodation-main-box h2 {
+    font-size: 33px;
+  }
+}
+
+/* for tablet & smartphone max-width 767px */
+
+@media (max-width: 767px) {
+  .header-content {
+    padding: 40px;
+  }
+  #header .header-content h1 {
+    font-size: 33px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  #header .header-content p {
+    font-size: 12px;
+  }
+  /* our story top */
+
+  .our-story-top h2 {
+    font-size: var(--h2-fz-responsive);
+  }
+  .heart {
+    width: 100%;
+  }
+  .our-story-top p {
+    padding: unset;
+    text-align: justify;
+  }
+  .timer .record {
+    padding: 15px 5px;
+    font-size: 12px;
+  }
+  .timer .record span {
+    font-size: 30px;
+  }
+
+  /* our story main */
+  .our-story-main h2 {
+    font-size: var(--h2-fz-responsive);
+  }
+  .our-story-description {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .our-story-description p {
+    width: 100%;
+    margin: 25px 0;
+  }
+
+  /* who we are */
+
+  /* who we are  banner */
+
+  .who-we-are-banner .who-we-are-content h2 {
+    font-size: var(--h2-fz-responsive);
+  }
+  .who-we-are-main-content {
+    flex-direction: column;
+  }
+  .who-we-are-box {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .who-we-are-box h2 {
+    font-size: var(--h2-fz-responsive);
+  }
+
+  /* customers */
+  .customers {
+    flex-direction: column;
+  }
+  .customers-wrap {
+    width: 100%;
+  }
+  .customers-wrap h2 {
+    font-size: var(--h2-fz-responsive);
+  }
+
+  .customers-figure {
+    flex-direction: column;
+  }
+  .customers-figure figure {
+    width: 100%;
+  }
+
+  /* wedding */
+
+  /* wedding details */
+
+  .wedding-details-main {
+    padding: 20px 0;
+  }
+  .wedding-details-banner .wedding-details-content h2 {
+    font-size: var(--h2-fz-responsive);
+  }
+
+  .wedding-details-main .wedding-details-content {
+    flex-direction: column;
+  }
+  .wedding-details-content .wedding-details-box {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .wedding-details-box h2 {
+    font-size: 25px;
+  }
+
+  /* accomodation */
+
+  /* accomodation banner */
+
+  .accomodation-banner-content h2 {
+    font-size: var(--h2-fz-responsive);
+  }
+
+  /* accomodation main  */
+  .accomodation-main-content {
+    flex-direction: column;
+  }
+  .accomodation-main-box {
+    width: 100%;
+  }
+  .accomodation-main-box:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  /* ragestry */
+
+  .registry-banner-gift h2 {
+    font-size: var(--h2-fz-responsive);
+  }
+
+  .registry-banner-box {
+    flex-direction: column;
+  }
+  .registry-box-image {
+    width: 100%;
+  }
+  .registry-box-image:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  /* rsvp */
+
+  .rsvp-input-wraper .input-wrap {
+    width: 100%;
+  }
+  .button {
+    margin-top: 10px;
+  }
+  .button button {
+    padding: 15px 40px;
+  }
+
+  /* elevator */
+
+  .elevator {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/* custome responsive */
+/* 320px  until to 370Px */
+@media (min-width: 320px) and (max-width: 370px) {
+  .heart-contact-us {
+    background: linear-gradient(
+      to right,
+      var(--text-white) 40%,
+      transparent 40%,
+      transparent 60%,
+      var(--text-white) 60%
+    );
+  }
+}
+/* 768px  until to 1023Px */
+@media (min-width: 768px) and (max-width: 776px) {
+  #accomodation-titel-description3 {
+    margin: 18px auto;
+  }
+}
+/* 777px  until to 988Px */
+@media (min-width: 777px) and (max-width: 988px) {
+  #accomodation-titel-description2,
+  #accomodation-titel-description3 {
+    margin: 18px auto;
+  }
+}
+
+/* 980px  until to 1077Px */
+
+@media (min-width: 989px) and (max-width: 1077px) {
+  .wedding-details-box h2 {
+    font-size: 33px;
+  }
+  .accomodation-main-box h2 {
+    font-size: 31px;
+  }
+  #accomodation-titel-description3 {
+    margin: 18px auto;
+  }
+}
+/* 1034px  until to 1304Px */
+
+@media (min-width: 1034px) and (max-width: 1304px) {
+  .wedding-details-box h2 {
+    font-size: 33px;
+  }
+  .accomodation-main-box h2 {
+    font-size: 31px;
+  }
+  #accomodation-titel-description3,
+  #accomodation-titel-description2 {
+    margin: 18px auto;
+  }
+}
